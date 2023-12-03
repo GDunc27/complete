@@ -7,7 +7,7 @@ const postReviews = async (review, rating, placeId)=> {
     const accessToken = JSON.parse(token)
     const id = JSON.parse(userId)
 
-    const endpoint = 'https://travelappbackend-production.up.railway.app/api/reviews'
+    const endpoint = 'https://nightinnashbackend-production.up.railway.app/api/reviews'
 
     const data = {
         "review": review,

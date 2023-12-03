@@ -15,7 +15,7 @@ const Search = ({navigation}) => {
   
   const handleSearch = async() =>{
     try {
-      const response = await axios.get(`https://travelappbackend-production.up.railway.app/api/places/search/${searchKey}`)
+      const response = await axios.get(`https://nightinnashbackend-production.up.railway.app/api/places/search/${searchKey}`)
       setSearchResults(response.data)
     } catch (error) {
       console.log("Failed to get products" , error);

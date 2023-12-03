@@ -12,10 +12,10 @@ const fetchRecommendations = (places) => {
 
         try {
             if (places === 1) {
-                const response = await axios.get('https://travelappbackend-production.up.railway.app/api/places?limit=3');
+                const response = await axios.get('https://nightinnashbackend-production.up.railway.app/api/places?limit=3');
                 setRecommendations(response.data.places)
             } else {
-                const response = await axios.get('https://travelappbackend-production.up.railway.app/api/places');
+                const response = await axios.get('https://nightinnashbackend-production.up.railway.app/api/places');
                 setRecommendations(response.data.places)
             }
 

@@ -35,7 +35,7 @@ const TopTab = ({ navigation }) => {
 
         try {
           const response = await axios.get(
-            'https://travelappbackend-production.up.railway.app/api/users',
+            'https://nightinnashbackend-production.up.railway.app/api/users',
             {
               headers: {
                 Authorization: `Bearer ${accessToken}`,
