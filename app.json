@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "travel_app",
-    "slug": "travel_app",
+    "name": "TravelApp",
+    "slug": "travelapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -34,7 +34,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "8265c929-f8ee-4b34-8f11-9f3cdb58954d"
+        "projectId": "39e6a6e5-b18e-4997-8dec-66ba9a91b526"
       }
     }
   }
