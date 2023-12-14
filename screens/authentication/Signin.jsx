@@ -45,7 +45,7 @@ const Signin = ({ navigation }) => {
     setLoader(true);
 
     try {
-      const endpoint = "https://travelappbackend-production.up.railway.app/api/login";
+      const endpoint = "https://nightinnashbackend-production.up.railway.app/api/login";
       const data = values;
 
       const response = await axios.post(endpoint, data);

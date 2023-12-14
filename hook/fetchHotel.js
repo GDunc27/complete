@@ -12,10 +12,10 @@ const fetchHotels = (places) => {
 
         try {
             if (places === 1) {
-                const response = await axios.get('https://travelappbackend-production.up.railway.app/api/hotels/byCountry/64c62bfc65af9f8c969a8d04?limit=3');
+                const response = await axios.get('https://nightinnashbackend-production.up.railway.app/api/hotels/byCountry/64c62bfc65af9f8c969a8d04?limit=3');
                 setHotels(response.data.hotels)
             } else {
-                const response = await axios.get('https://travelappbackend-production.up.railway.app/api/hotels/byCountry/64c62bfc65af9f8c969a8d04');
+                const response = await axios.get('https://nightinnashbackend-production.up.railway.app/api/hotels/byCountry/64c62bfc65af9f8c969a8d04');
                 setHotels(response.data.hotels)
             }
 

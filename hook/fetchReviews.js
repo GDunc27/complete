@@ -11,7 +11,7 @@ const fetchReviews = (id) => {
         setIsLoading(true)
 
         try {
-            const response = await axios.get(`https://travelappbackend-production.up.railway.app/api/reviews/${id}`);
+            const response = await axios.get(`https://nightinnashbackend-production.up.railway.app/api/reviews/${id}`);
 
             setReviews(response.data)
             setIsLoading(false)
